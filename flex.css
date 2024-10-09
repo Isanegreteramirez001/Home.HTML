@@ -2,7 +2,6 @@
 .flex-container {
 display: flex;
 justify-content: center;
-flex-wrap: wrap;
 flex-direction: column;
 font-size: 4rem; color: white; 
 } 
@@ -14,14 +13,33 @@ font-size: 4rem; color: white;
     font-size: 10px;
 }
 
-.flex-container1{
+.flex-container1 {
+display: flex;
+flex-wrap: wrap-reverse;
+flex-direction:column;
+align-content: center;
+}
+.flex-container1 {
 background-color: #69a0e5;
 margin: 10px;
 padding: 20px;
 font-size: 30px;
 }
 
-.flex-container1{
-display: flex;
-flex-wrap: wrap;
-}
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction:column;
+    align-content: center;
+    }
+    .flex-container2 {
+    background-color: #f3a43d;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    }
+
+    .flex-container3 {
+        display: flex;
+        align-content: flex-end;
+        }
